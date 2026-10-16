@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Janhavi Singh — Data Analyst and MCA student skilled in Python, SQL, Power BI and Excel.">
+  <title>Janhavi Singh — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    try {
+      const saved = localStorage.getItem('theme');
+      if (saved) document.documentElement.setAttribute('data-theme', saved);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#home" class="logo">JS<span>.</span></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span></label>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme">
+        <span class="icon-sun" aria-hidden="true">☀</span>
+        <span class="icon-moon" aria-hidden="true">☾</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Janhavi Singh</h1>
+        <h2 class="hero-sub">Data Analyst &amp; MCA Student</h2>
+        <p class="hero-text">I turn raw, messy data into clean datasets, dashboards and reports that help teams make better decisions — using Python, SQL, Power BI and Excel.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <ul class="hero-links">
+          <li><a href="mailto:25MCAA68@kristujayanti.com">Email</a></li>
+          <li><a href="https://linkedin.com/in/janhavi-in03" target="_blank" rel="noopener">LinkedIn</a></li>
+          <!-- TODO: replace # with your GitHub profile URL -->
+          <li><a href="#" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container about">
+        <div class="about-avatar" aria-hidden="true">JS</div>
+        <div class="about-text">
+          <h2 class="section-title">About Me</h2>
+          <p>I'm a dedicated and analytical MCA student at Kristu Jayanti (Deemed to be University), Bengaluru, with hands-on experience in data processing, reporting analysis and database management.</p>
+          <p>I focus on data transformation and interactive visualization, and I enjoy using analytics to streamline workflows and support business decisions. I'm open to opportunities across India.</p>
+          <ul class="about-stats">
+            <li><strong>15+</strong><span>Industry Certifications</span></li>
+            <li><strong>20K+</strong><span>Records Managed</span></li>
+            <li><strong>99.8%</strong><span>Data Accuracy</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title center">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <span class="skill-icon">💻</span>
+            <h3>Languages</h3>
+            <ul class="tags"><li>Python</li><li>SQL</li></ul>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">📊</span>
+            <h3>BI &amp; Visualization</h3>
+            <ul class="tags"><li>Power BI</li><li>Excel Dashboards</li><li>Data Visualization</li></ul>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">🛠️</span>
+            <h3>Tools &amp; Platforms</h3>
+            <ul class="tags"><li>MS Excel</li><li>Google Sheets</li><li>Microsoft Power Platform</li></ul>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">🔍</span>
+            <h3>Data &amp; Analytics</h3>
+            <ul class="tags"><li>Data Cleaning</li><li>Data Transformation</li><li>Reporting Automation</li><li>Statistical Analysis</li><li>Machine Learning Basics</li></ul>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">🤝</span>
+            <h3>Soft Skills</h3>
+            <ul class="tags"><li>Team Leadership</li><li>Problem Solving</li><li>Project Management</li><li>Adaptability</li><li>Interpersonal Skills</li></ul>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">🗣️</span>
+            <h3>Languages Spoken</h3>
+            <ul class="tags"><li>Hindi (Proficient)</li><li>English (Intermediate)</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title center">Experience</h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-card">
+              <span class="timeline-date">May 2024 – Oct 2025</span>
+              <h3>Data Analyst Intern</h3>
+              <p class="timeline-org">Udaghosh Social Welfare Society</p>
+              <ul>
+                <li>Collected, cleaned and analysed social welfare data to generate reports supporting NGO decision-making and programme evaluation.</li>
+                <li>Built Excel-based dashboards to track beneficiary data and monitor programme outcomes across multiple welfare initiatives.</li>
+                <li>Prepared visual data summaries and impact reports for organisational leadership and stakeholders.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-card">
+              <span class="timeline-date">May 2022 – Jun 2025</span>
+              <h3>Data Analyst</h3>
+              <p class="timeline-org">Shankar Trading Company</p>
+              <ul>
+                <li>Transformed 5,000+ unstructured records into clean, analysis-ready datasets, reducing data retrieval time by 40%.</li>
+                <li>Built automated reporting workflows in Excel and Google Sheets, cutting report generation time.</li>
+                <li>Maintained 99.8% accuracy across 20,000+ records and delivered 10+ stakeholder reports per month across 3 departments.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+
+        <h3 class="sub-title">Leadership &amp; Responsibilities</h3>
+        <ul class="tags tags-lg">
+          <li>Project Team Lead – OneLookPay</li>
+          <li>Student Coordinator (Product Launch) – Shells Fest 2026</li>
+          <li>Student Volunteer – ICCTAC 2026</li>
+          <li>Volunteer – Cultural Events, AKS University, 2022</li>
+          <li>Class Representative (UG)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title center">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumb thumb-1"></div>
+            <div class="project-body">
+              <h3>OneLookPay – Biometric Payment System</h3>
+              <p>A first-year MCA mini project exploring biometric authentication for payments. I led the project team from planning through delivery.</p>
+              <!-- TODO: add the technologies you used -->
+              <ul class="tags"><li>Mini Project</li><li>Team Lead</li><li>2026</li></ul>
+              <!-- TODO: replace # with your repository / demo URLs -->
+              <div class="project-links"><a href="#">GitHub</a><a href="#">Live Demo →</a></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb thumb-2"></div>
+            <div class="project-body">
+              <h3>Weather Forecasting App</h3>
+              <p>A mini project that provides weather forecasts for a chosen location in a simple, easy-to-read interface.</p>
+              <!-- TODO: add the technologies you used -->
+              <ul class="tags"><li>Mini Project</li><li>2024</li></ul>
+              <div class="project-links"><a href="#">GitHub</a><a href="#">Live Demo →</a></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb thumb-3"></div>
+            <div class="project-body">
+              <h3>Welfare Programme Dashboards</h3>
+              <p>Excel dashboards built at Udaghosh Social Welfare Society to track beneficiary data and monitor outcomes across multiple welfare initiatives.</p>
+              <ul class="tags"><li>MS Excel</li><li>Dashboards</li><li>Data Cleaning</li></ul>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb thumb-4"></div>
+            <div class="project-body">
+              <h3>Automated Reporting Workflows</h3>
+              <p>Cleaned 5,000+ unstructured business records and automated recurring reports at Shankar Trading Company, cutting data retrieval time by 40%.</p>
+              <ul class="tags"><li>MS Excel</li><li>Google Sheets</li><li>Automation</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" class="section">
+      <div class="container edu">
+        <div>
+          <h2 class="section-title">Education</h2>
+          <ul class="edu-list">
+            <li>
+              <span class="timeline-date">2025 – 2027</span>
+              <h3>Master of Computer Applications (MCA)</h3>
+              <p>Kristu Jayanti (Deemed to be University), Bengaluru</p>
+            </li>
+            <li>
+              <span class="timeline-date">2021 – 2024</span>
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <p>AKS University, Satna, Madhya Pradesh</p>
+            </li>
+            <li>
+              <span class="timeline-date">2020 – 2021</span>
+              <h3>Class XII (Commerce + IP)</h3>
+              <p>Christ Jyoti Hr. Sec. School, Satna, MP</p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="section-title">Certifications</h2>
+          <ul class="cert-list">
+            <li><strong>IT Specialist: Data Analytics</strong><span>CertNexus / Pearson VUE / Certiport · 2026</span></li>
+            <li><strong>Microsoft Certified: Power Platform Fundamentals</strong><span>Microsoft / Certiport · 2026</span></li>
+            <li><strong>Google Data Analytics Professional Certificate</strong><span>Google · 2026</span></li>
+            <li><strong>Introduction to Data Analytics</strong><span>IBM / Coursera · 2026</span></li>
+            <li><strong>Cyber Security &amp; Ethical Hacking</strong><span>National Workshop (IEEE) · 2025</span></li>
+            <li><strong>Python with Machine Learning</strong><span>EISystems &amp; Robokwik, Delhi · 2024</span></li>
+            <li><strong>Full Stack Data Science &amp; AI</strong><span>2024</span></li>
+            <li><strong>Statistical Analysis</strong><span>Great Learning Academy · 2024</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact">
+        <div class="contact-info">
+          <h2 class="section-title">Get in Touch</h2>
+          <p>I'm looking for data analyst roles and internships, and I'm happy to relocate anywhere in India. Feel free to reach out!</p>
+          <ul class="contact-list">
+            <li><span>✉</span><a href="mailto:25MCAA68@kristujayanti.com">25MCAA68@kristujayanti.com</a></li>
+            <li><span>in</span><a href="https://linkedin.com/in/janhavi-in03" target="_blank" rel="noopener">linkedin.com/in/janhavi-in03</a></li>
+            <!-- TODO: replace # with your GitHub profile URL -->
+            <li><span>gh</span><a href="#" target="_blank" rel="noopener">GitHub</a></li>
+            <li><span>📍</span>Bengaluru, Karnataka</li>
+          </ul>
+        </div>
+        <form class="contact-form" action="mailto:25MCAA68@kristujayanti.com" method="post" enctype="text/plain">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+          <label>Message<textarea name="message" rows="5" placeholder="Tell me about the opportunity..." required></textarea></label>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Janhavi Singh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const root = document.documentElement;
+      const btn = document.getElementById('theme-toggle');
+      btn.addEventListener('click', function () {
+        const current = root.getAttribute('data-theme') ||
+          (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        const next = current === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+      });
+      // Close mobile menu after choosing a link
+      document.querySelectorAll('.nav-links a').forEach(function (a) {
+        a.addEventListener('click', function () { document.getElementById('nav-toggle').checked = false; });
+      });
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
